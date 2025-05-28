@@ -66,6 +66,164 @@ h2{
     margin: 3%;
     background-color: var(--crema);
 }
+.formulario{
+    margin: 3%;
+    background-color: var(--crema);
+}
 #cambioDeColor{
     background-color: var(--verde-1);
+}
+
+.contacto{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10%;
+    padding: 10%;
+    background-color: var(--crema);
+    padding-bottom: 30%;
+}
+.contacto div{
+    border: 2px solid var(--marron);
+    padding: 10%;
+    border-radius: 15%;
+}
+.contacto b{
+    color: var(--marron);
+}
+.contacto p{
+    display: flex;
+    justify-content: center;
+    font-family: var(--fuente1);
+    
+}
+.redes{
+    width: 20px;
+    height: 20px;
+}
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde-2);
+    padding: 5%;
+}
+.pie img{
+    width: 10%;
+    height: 10%;
+}
+.pietxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 3%;
+    font-family: var(--fuente1);
+}
+@media (min-width: 767px) {
+    .indumentaria{
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3%;
+        margin-top: 400px;
+        align-items: center;
+        background-color: var(--verde-1);
+        width: 100%;
+        height: 100%;
+    }
+    .novedades{
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+        width: 90%;
+        height: 30%;
+        margin-top: 40px;     
+        margin-bottom: 40px;
+        height: auto; 
+    }
+    .carrusel{
+        padding: 3%;
+        width: 100vh;
+        height: 44vh;
+        margin-bottom: 40px;
+    }
+    .box{ 
+        display: flex;
+        background-color: var(--verde-1);
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+        color: var(--verde-2);
+        font-size: 1rem;
+        font-family: var(--fuente1);
+        border-radius: 6%;
+        justify-content: right;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        justify-content: right;
+        align-items: end;
+    }
+    .botones{
+        display: flex;
+        
+    }
+    header p{
+        margin: 3%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        font-size: 1rem;
+        font-family: var(--fuente1);
+    }
+    header img{
+        width: 90%;
+        height: 90%;
+        
+    }
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--verde-2);
+        
+    }
+    .pie img{
+        width: 12%;
+        height: 12%;
+    }
+    .pietxt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 3%;
+        font-family: var(--fuente1);
+    }
+}
+@media (min-width: 1023px){
+    .contacto div{
+        font-size: 2rem;
+    }    
+    .contacto{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10%;
+        padding: 10%;
+        background-color: var(--crema);
+        padding-bottom: 30%;
+        background-color: #fffacb;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 30px;
+  overflow: auto;
+    }
+    .pie{
+        background-color: #90caa1;
+  padding: 40px;
+  margin-top: 30px;
+  overflow: auto;
+    }
 }

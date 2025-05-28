@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calendario</title>
-        <link rel="stylesheet" href="../estilosNoIndex.css">
+        <link rel="stylesheet" href="../style.css">
             <link rel="icon" href="../favicon-32x32.png" type="image/x-icon">
             <link href="../bootstrap-5.3.6-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     </head>
@@ -23,5 +23,26 @@
                 </ul>
             </nav>
         </header>
+        <div class="formulario">
+            <div class="mb-3 row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+                </div>
+              </div>
+              <div class="mb-3 row">
+                <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                  <input type="password" class="form-control" id="inputPassword">
+                </div>
+              </div>
+        </div>
+        <div class="formulario">
+          <button type="button" class="btn btn-outline-primary" disabled>Ingresar</button>
+        </div>
     </body>
+    <footer class="pie">
+      <img src="../realpng.png" alt="logo">
+      <p class="pietxt">Te esperamos !</p>
+    </footer>
 </html>

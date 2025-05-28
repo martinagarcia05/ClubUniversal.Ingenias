@@ -93,7 +93,31 @@ h5{
     background-color: var(--verde-2);
     
 }
+.pie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--verde-2);
+    padding: 5%;
+}
+.pie img{
+    width: 10%;
+    height: 10%;
+}
+.pietxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: 3%;
+    font-family: var(--fuente1);
+}
 @media (min-width: 767px) {
+    header img{
+        width: 130px;
+        height: 130px;
+        
+    }
     .indumentaria{
         padding: 3%;
         display: grid;
@@ -121,5 +145,53 @@ h5{
         height: 44vh;
         margin-bottom: 40px;
     }
-
+    .box{ 
+        display: flex;
+        background-color: var(--verde-1);
+        margin: 10px;
+        text-align: center;
+        justify-content: center;
+        color: var(--verde-2);
+        font-size: 1rem;
+        font-family: var(--fuente1);
+        border-radius: 6%;
+        justify-content: right;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .botones{
+        display: flex;
+    }
+    header p{
+        margin: 3%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-items: center;
+        font-size: 1rem;
+        font-family: var(--fuente1);
+    }
+    .pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--verde-2);
+        
+    }
+    .pie img{
+        width: 12%;
+        height: 12%;
+    }
+    .pietxt{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin: 3%;
+        font-family: var(--fuente1);
+    }
 }
