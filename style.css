@@ -1,0 +1,125 @@
+:root{
+    --verde-1: #226F54;
+    --verde-2: #87C38F;
+    --rojo: #DA2C38;
+    --crema: #fffccc;
+    --marron: #43291F;
+    --fuente1: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.row{
+    background-color: var(--crema);
+}
+header{
+    display: flex;
+    justify-content: center;
+    /*padding: 10% 0% 10% 0%; */
+    background-color: var(--verde-2);
+    box-shadow: var(--verde-1);
+}
+header img{
+    width: 130px;
+    height: 130px;
+    
+}
+header p{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-size: 2rem;
+    font-family: var(--fuente1);
+}
+.img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.box{ 
+    background-color: var(--verde-1);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    color: var(--verde-2);
+    font-size: 1rem;
+    font-family: var(--fuente1);
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.indumentaria{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+
+    align-items: center;
+    background-color: var(--verde-1);
+    width: 100%;
+    height: 100%;
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
+.card p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.novedades{
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    width: 90%;
+    height: 30%;
+}
+.carrusel{
+    padding: 3%;
+    width: 100vh;
+    height: 44vh;
+}
+
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+}
+
+h5{
+    font-size: 5%;
+    background-color: var(--verde-2);
+    
+}
+@media (min-width: 767px) {
+    .indumentaria{
+        padding: 3%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3%;
+        margin-top: 400px;
+        align-items: center;
+        background-color: var(--verde-1);
+        width: 100%;
+        height: 100%;
+    }
+    .novedades{
+        display: flex;
+        margin-left: 5%;
+        justify-content: center;
+        width: 90%;
+        height: 30%;
+        margin-top: 40px;     
+        margin-bottom: 40px;
+        height: auto; 
+    }
+    .carrusel{
+        padding: 3%;
+        width: 100vh;
+        height: 44vh;
+        margin-bottom: 40px;
+    }
+
+}
