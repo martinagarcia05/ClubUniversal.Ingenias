@@ -1,0 +1,71 @@
+:root{
+    --verde-1: #226F54;
+    --verde-2: #87C38F;
+    --rojo: #DA2C38;
+    --crema: #fffccc;
+    --marron: #43291F;
+    --fuente1: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    /*padding: 10% 0% 10% 0%; */
+    background-color: var(--verde-2);
+    /*box-shadow: var(--verde-1);*/
+}
+header img{
+    width: 100px;
+    height: 100px;
+    
+}
+header p{
+    margin: 3%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    font-size: smaller;
+    font-family: var(--fuente1);
+}
+.img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.box{ 
+    background-color: var(--verde-1);
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    color: var(--verde-2);
+    /*font-size: 1rem;*/
+    font-family: var(--fuente1);
+}
+nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 3%;
+}
+.Calendar{
+    height: 400px; /* altura fija */
+    overflow-y: auto; /* permite scroll vertical cuando el contenido se desborda */
+    border: 1px solid #ccc; /* opcional, para que se vea el contenedor */
+    background-color: var(--crema);
+} 
+li{
+    margin: 2%;
+}
+h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2%;
+    background-color: var(--crema);
+}
+#formulario{
+    margin: 3%;
+    background-color: var(--crema);
+}
+#cambioDeColor{
+    background-color: var(--verde-1);
+}
