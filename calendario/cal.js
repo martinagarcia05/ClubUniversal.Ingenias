@@ -1,10 +1,5 @@
-
-/*const cal= document.querySelector("#calendario")
-cal.addEventListener('DOMContentLoaded', function () {
-   
-})*/
  document.addEventListener('DOMContentLoaded', function () {
-    var calendarEl = document.getElementById('calendar');
+    var calendarEl = document.querySelector("#calendar")
     var calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'listWeek',
       headerToolbar: {
