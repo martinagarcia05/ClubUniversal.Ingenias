@@ -16,10 +16,16 @@ form.addEventListener("submit", (e) => {
 });
 
 function recordarSes(){
-    if(localStorage.getItem("email")==null && localStorage.getItem("pswd")==null && localStorage.getItem("nom")==null ){
+    if(localStorage.getItem("email")===null && localStorage.getItem("pswd")===null){
       let em = email;
       let ps = contra;
       localStorage.setItem("email", `${em}`);
       localStorage.setItem("pswd", `${ps}`);
     } 
+}
+window.onload = function(){
+    if(localStorage.getItem("email")!==null && localStorage.getItem("pswd")!==null){
+        alert("Bienvenido!");
+        verCalendario();
+    }
 }
