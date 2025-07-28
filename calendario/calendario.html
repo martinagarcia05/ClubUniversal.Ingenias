@@ -22,6 +22,7 @@
             </nav>
         </header>
     <h2>Próximos Eventos</h2> <!--overflow-->
+    <div id="calendar"></div>
         <!--<aside class="Calendar">
 
             <div class="row">
@@ -48,8 +49,9 @@
                     <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.</p>
                   </div>
                 </div>
-              </div>-->
-<table class="table table-success table-striped-columns Calendar">
+              </div>
+              
+<table class="table table-success table-striped-columns Calendar" >
   <tr>
   <th>Fecha</th>
   <th>Eventos</th>
@@ -80,7 +82,8 @@
     <td>13:45hs</td>
   </tr>
   
-</table>  <!--<ul>
+</table>  
+<ul>
                 <li><b>1/5</b> Cancelacion de Actividades</li>
                 <li><b>3/5</b> Voley-Partido sub 21-15:00hs</li>
                 <li><b>3/5</b> Basket-Partido sub 12-20:30hs</li>
@@ -89,5 +92,10 @@
             </ul>-->
         </aside>
         <footer class="pie"><a href="../contacto/contacto.html"><button type="button" class="btn btn-outline-success">Conocenos</button></a></footer>
-</body>
+        <script src="cal.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/list.global.min.js"></script>
+        <script src='fullcalendar/dist/index.global.js'></script>
+     </body>
 </html>
