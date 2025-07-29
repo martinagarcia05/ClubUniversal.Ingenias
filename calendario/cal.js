@@ -1,6 +1,6 @@
  document.addEventListener('DOMContentLoaded', function () {
-    var calendarEl = document.querySelector("#calendar")
-    var calendar = new FullCalendar.Calendar(calendarEl, {
+    const calendarEl = document.querySelector("#calendar")
+    const calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'listWeek',
       headerToolbar: {
         left: 'prev,next today',

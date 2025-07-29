@@ -1,16 +1,18 @@
 :root{
-    --verde-1: #226F54;
+    --verde-1: #008036;
     --verde-2: #87C38F;
-    --rojo: #DA2C38;
-    --crema: #f5f5f5;
+    --rojo: #f90205;
+    --crema: #E0E0E0;
+    --azul: #0a0e3e;
     --marron: #43291F;
     --fuente1: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 header{
     display: flex;
     justify-content: center;
-    /*padding: 10% 0% 10% 0%; */
+    background-color: var(--verde-1);
+    background-size: cover;
+    box-shadow: 10 20% 10% var(--rojo);
 }
 header img{
     width: 130px;
@@ -24,24 +26,28 @@ header p{
     justify-items: center;
     font-size: 2rem;
     font-family: var(--fuente1);
+    color: var(--azul);
 }
 .img{
     display: flex;
     justify-content: left;
     align-items: center;
 }
-header{
-    background-color: var(--verde-2);
-    box-shadow: var(--verde-1);
-}
 .box{ 
-    background-color: var(--verde-1);
+    background-color: var(--rojo);
+    border-radius: 20%;
+    color: var(--verde-1);
     margin: 10px;
     text-align: center;
     justify-content: center;
     color: var(--verde-2);
     font-size: 1rem;
     font-family: var(--fuente1);
+    list-style-type: none;
+}
+.box:hover{
+    border: 2px solid var(--rojo);
+    background-color: var(--verde-1);
 }
 nav{
     display: flex;

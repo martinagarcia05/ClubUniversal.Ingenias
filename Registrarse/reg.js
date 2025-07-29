@@ -1,12 +1,15 @@
-const form = document.querySelector(".form");
+const form = document.querySelector("#form");
 
-function isIniSes(){
+function iraIS(){
     window.location.href = '../IniciarSesion/inises.html';
 }
-
-
+function validarEmail(){
+    
+}
 
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-    isIniSes();
+    validarEmail();
+    iraIS();
 });
+

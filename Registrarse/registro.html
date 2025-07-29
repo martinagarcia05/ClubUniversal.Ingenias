@@ -2,14 +2,14 @@
 <head>
         <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="../nav.css">
-        <link rel="icon" href="../logo.png" type="image/x-icon">
+        <link rel="icon" href="../imgs/logo.png" type="image/x-icon">
         <link href="bootstrap-5.3.6-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
         <title>Club Universal</title>
     </head>
-    <body class="cuerpo" style="background-image: url(../fondo.jpeg);">
+    <body class="cuerpo" style="background-image: url(../imgs/fondo.jpeg);">
         
         <header class="head">
-            <div class="img"><img src="../logo.png" alt="logo" id="logo"></div>
+            <div class="img"><img src="../imgs/logo.png" alt="logo" id="logo"></div>
             <p>Asociacion Cultural y Deportiva Universal</p>
             <nav>
               <ul class="botones">
@@ -21,7 +21,7 @@
             </nav>
         </header>
         <section id="reg">
-          <form class="row g-3">
+          <!--<form class="row g-3" id="form">
   <div class="col-md-6">
     <label for="inputEmail4" class="form-label">Email</label>
     <input type="email" class="form-control" id="inputEmail4">
@@ -29,11 +29,11 @@
 
   <div class="col-12">
     <label for="inputAddress" class="form-label">Nombres</label>
-    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    <input type="text" class="form-control" id="inputAddress" placeholder="">
   </div>
   <div class="col-12">
     <label for="inputAddress2" class="form-label">Apellidos</label>
-    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    <input type="text" class="form-control" id="inputAddress2" placeholder="">
   </div>
   <div class="col-md-6">
     <label for="inputCity" class="form-label">Telefono</label>
@@ -50,8 +50,34 @@
   <div class="col-12">
     <button type="submit" class="btn btn-primary">Registrarse</button>
   </div>
+</form>-->
+  <form class="row g-3">
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Nombres</label>
+    <input type="text" class="form-control is-valid" id="validationServer01" value="" required>
+  </div>
+  <div class="col-md-4">
+    <label for="validationServer01" class="form-label">Apellidos</label>
+    <input type="text" class="form-control is-valid" id="validationServer02" value="" required>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer01" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer01" class="form-label">Número de teléfono</label>
+    <input type="number" class="form-control" id="inputEmail4">
+  </div>
+  
+ 
+  <div class="col-12">
+    <button class="btn btn-primary btn btn-outline-success" type="submit">Registrarse</button>
+  </div>
 </form>
-        </section>
+
+
+
+</section>
 
 
 <script src="reg.js"></script>
